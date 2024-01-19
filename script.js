@@ -1,11 +1,44 @@
 // elements for obtaining vals
 const nickName = document.getElementById('nickname');
 const coloredNick = document.getElementById('coloredNick');
-const savedColors = ['084CFB', 'ADF3FD', getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor()];
+const savedColors = ['FBCD2C', 'F8372B', getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor()];
 const presets = {
   1: {
     colors: ["FF0000", "FF7F00", "FFFF00", "00FF00", "0000FF", "4B0082", "9400D3"],
-  }
+  },
+  2: {
+    colors: ["#F53053", "#F54379", "#F56A83", "#F580A3"],
+  },
+  3: {
+    colors: ["#F9CEEE", "#E0CDFF", "#C1F0FB", "#DCF9A8", "#FFEBAF"],
+  },
+  4: {
+    colors: ["#FF4B4B", "#FF9534", "#FFF84E", "#B2FF5A", "#25CBFF", "#863CFF"],
+  },
+  5: {
+    colors: ["#FFB9C5", "#FFD5D2", "#D6E792", "#B9E284", "#89C356"],
+  },
+  6: {
+    colors: ["#F9881F", "#F99A42", "#B9638C", "#8958AF", "#6C42B1"],
+  },
+  7: {
+    colors: ["#58D7FF", "#A4E4FF", "#D9F1FF", "#EEF9FF"],
+  },
+  8: {
+    colors: ["#FF5555", "#FFAEAE", "#FFEAE9", "#FFFFFF"],
+  },
+  9: {
+    colors: ["#82D439", "#D4F8B4"],
+  },
+  10: {
+    colors: ["#0ea3e5", "#C4F2FA"],
+  },
+  11: {
+    colors: ["#C177FB", "#D0C3F7"],
+  },
+  12: {
+    colors: ["#eeb915", "#F7F2A9"],
+  },
 }
 const formats = {
   0: {
@@ -61,6 +94,12 @@ const formats = {
     template: '\\u00A7x\\u00A7$1\\u00A7$2\\u00A7$3\\u00A7$4\\u00A7$5\\u00A7$6$c',
     formatChar: null,
     maxLength: null
+  },
+  9: {
+    outputPrefix: '',
+    template: '#$1$2$3$4$5$6$f$c',
+    formatChar: '&',
+    maxLength: 256
   },
 };
 

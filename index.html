@@ -21,8 +21,8 @@
     </div>
     
     <div id="content">
-      <h1 id="title">RGBirdflop</h1>
-      <p id="graylabel1" class="gray" style="padding-bottom: 10px;">Use Google Chrome for the best experience.</p>
+      <h1 id="title">HayCube RGB</h1>
+      <p id="graylabel1" class="gray" style="padding-bottom: 10px;">play.haycube.net</p>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-2" style="padding-left: 0;">
@@ -48,7 +48,7 @@
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="nickname">Message</label>
                   <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Text"
-                         value="birdflop.com" oninput="javascript: updateOutputText(event);"
+                         value="Nickname" oninput="javascript: updateOutputText(event);"
                          onchange="javascript: updateOutputText(event)">
                 </div>
               </div>
@@ -58,12 +58,11 @@
                   <select id="output-format"
                           class="form-control"
                           onchange="updateOutputText(event);">
-                    <option value='0'>Default (&#rrggbb)</option>
-                    <option value='2'>Legacy (&x&r&r&g&g&b&b)</option>
-                    <option value='6'>Console (§x§r§r§g§g§b§b)</option>
-                    <option value='8'>MOTD (\u00A7x)</option>
-                    <option value='1'>Chat (<#rrggbb>)</option>
-                    <option value='7'>BBCode [COLOR=#rrggbb]</option>
+                    <option value='3'>Custom Nickname</option>
+                    <option value='0'>Custom Text</option>
+                    <option value=''></option>
+                    <option value='9'>Plugin [HayCube]</option>
+                    <option value='6'>Console [HayCube]</option>
                   </select>
                 </div>
               </div>
@@ -75,6 +74,17 @@
                           onchange="preset(this.value); updateOutputText(event); ">
                     <option value='0'>None</option>
                     <option value='1'>Rainbow</option>
+                    <option value='9'>VIP</option>
+                    <option value='10'>MVP</option>
+                    <option value='11'>PRO</option>
+                    <option value='12'>HAY</option>
+                    <option value='2'>Cupid</option>
+                    <option value='3'>Easter</option>
+                    <option value='4'>Colorful</option>
+                    <option value='5'>Lush</option>
+                    <option value='6'>Spooky</option>
+                    <option value='7'>Snowy</option>
+                    <option value='8'>Santa</option>
                   </select>
                 </div>
               </div>
@@ -118,6 +128,7 @@
     </body>
 
   <footer>
-    <p>A special thanks to <a href="https://github.com/Oli-idk">Oli</a> and <a href="https://github.com/saboooor">Saboor</a> for their work on this RGB gradient generator. Happy to have y'all helping me out.</p>
+    <p>A special thanks to <a href="https://github.com/Oli-idk">Oli</a> and <a href="https://github.com/saboooor">Saboor</a> for their work on this RGB gradient generator. The source code can be seen at <a href="https://github.com/Tosfoy/haycubergb">https://github.com/Tosfoy/haycubergb</a></p>
+    <p>This is a fork from <a href="https://www.birdflop.com/resources/rgb/">RGBirdflop</a></p>
   </footer>
 </html>
