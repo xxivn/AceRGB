@@ -39,6 +39,13 @@ const presets = {
   12: {
     colors: ["#eeb915", "#F7F2A9"],
   },
+  13: {
+    colors: ["#3B9D1C", "#93AE00", "#ECD800", "#DF9700", "#EF6A02", "#D22E2E"],
+  },
+  14: {
+    colors: ["#eeb915", "#F7F2A9"],
+  },
+  
 }
 const formats = {
   0: {
@@ -100,6 +107,12 @@ const formats = {
     template: '#$1$2$3$4$5$6$f$c',
     formatChar: '&',
     maxLength: 256
+  },
+  13: {
+    outputPrefix: '',
+    template: '[COLOR=#$1$2$3$4$5$6]$c[/COLOR]',
+    formatChar: null,
+    maxLength: null
   },
 };
 
