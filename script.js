@@ -114,9 +114,9 @@ const formats = {
     formatChar: null,
     maxLength: null
   },
-    14: {
+  14: {
     outputPrefix: '',
-    template: '[COLOR=#$1$2$3$4]$c[/COLOR]',
+    template: '[COLOR=#$1$2$3$4$5$6]$c[/COLOR]',
     formatChar: null,
     maxLength: null
   },
