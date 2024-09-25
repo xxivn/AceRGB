@@ -7,7 +7,7 @@ const presets = {
     colors: ["FF0000", "FF7F00", "FFFF00", "00FF00", "0000FF", "4B0082", "9400D3"],
   },
   2: {
-    colors: ["#F53053", "#F54379", "#F56A83", "#F580A3"],
+    colors: ["#AD56D5", "#E4C0F5"],
   },
   3: {
     colors: ["#F9CEEE", "#E0CDFF", "#C1F0FB", "#DCF9A8", "#FFEBAF"],
@@ -28,16 +28,16 @@ const presets = {
     colors: ["#FF5555", "#FFAEAE", "#FFEAE9", "#FFFFFF"],
   },
   9: {
-    colors: ["#82D439", "#D4F8B4"],
+    colors: ["#EDFF1B", "#EDFF1B"],
   },
   10: {
-    colors: ["#0ea3e5", "#C4F2FA"],
+    colors: ["#6CFFE5", "#DEA7F8"],
   },
   11: {
-    colors: ["#C177FB", "#D0C3F7"],
+    colors: ["#4737FF", "#6CFFE5"],
   },
   12: {
-    colors: ["#eeb915", "#F7F2A9"],
+    colors: ["#8F20FF", "#E833F8"],
   },
 }
 const formats = {
